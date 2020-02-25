@@ -17,4 +17,4 @@ $ bash reproduce_figures.sh	# Generate all figures
 $ bash reproduce_tables.sh	# Calculate the values in Table A1
 $ bash recompile_manuscript.sh	# Compile multi-panel figures and the manuscript
 ```
-Note that `reproduce_figures.sh` will take some time to complete and requires occasional manual intervention to position legends and choose contours for labelling. If the scripts succeed, they should produce the [arXiv preprint of this paper](https://arxiv.org/abs/1909.01941) as a PDF at `figures/JASPrecipitationExtremes.pdf`.
+Note that `reproduce_figures.sh` will take some time to complete and requires occasional manual intervention to position legends and choose contours for labelling. If the scripts succeed, they should produce the [arXiv preprint of this paper](https://arxiv.org/abs/1909.01941) as a PDF at `manuscript/JASPrecipitationExtremes.pdf`.
