@@ -17,11 +17,9 @@ pdflatex FigureA4.tex
 pdflatex FigureA5.tex
 echo "Finished compiling figures"
 echo "Compiling manuscript"
-pdflatex JASPrecipitationExtremes.tex
-pdflatex JASPrecipitationExtremes.tex
-bibtex JASPrecipitationExtremes.tex
-bibtex JASPrecipitationExtremes.tex
-pdflatex JASPrecipitationExtremes.tex
-pdflatex JASPrecipitationExtremes.tex
+pdflatex JASPrecipitationExtremes
+bibtex JASPrecipitationExtremes
+pdflatex JASPrecipitationExtremes
+pdflatex JASPrecipitationExtremes
 echo "Compiled manuscript at manuscript/JASPrecipitationExtremes.pdf"
 cd ..

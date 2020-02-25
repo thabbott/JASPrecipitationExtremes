@@ -1,27 +1,31 @@
 echo "Reproducing figures"
 cd figures
-matlab -r Figure1
-matlab -r Figure2
-matlab -r Figure3
-matlab -r Figure4
-matlab -r Figure5
-matlab -r Figure6
-matlab -r Figure7
-matlab -r Figure8and9
-matlab -r Figure10
-matlab -r FigureA1
-matlab -r FigureA5
+matlab -nodesktop -nosplash -wait -r "Figure1; exit"
+matlab -nodesktop -nosplash -wait -r "Figure2; exit"
+matlab -nodesktop -nosplash -wait -r "Figure3; exit"
+matlab -nodesktop -nosplash -wait -r "Figure4; exit"
+matlab -nodesktop -nosplash -wait -r "Figure5; exit"
+matlab -nodesktop -nosplash -wait -r "Figure6; exit"
+matlab -nodesktop -nosplash -wait -r "Figure7; exit"
+matlab -nodesktop -nosplash -wait -r "Figure8and9; exit"
+matlab -nodesktop -nosplash -wait -r "Figure10; exit"
+matlab -nodesktop -nosplash -wait -r "FigureA1; exit"
+matlab -nodesktop -nosplash -wait -r "FigureA5; exit"
 cd ..
-cd figures/rcemip
-matlab -r Figure5
-matlab -r Figure8and9
+cd figures_rcemip
+matlab -nodesktop -nosplash -wait -r "Figure5; exit"
+matlab -nodesktop -nosplash -wait -r "Figure8and9; exit"
 cd ..
-cd figures/rcemip_m2005
-matlab -r Figure5
-matlab -r Figure8and9
+cd figures_rcemip_m2005
+matlab -nodesktop -nosplash -wait -r "Figure5; exit"
+matlab -nodesktop -nosplash -wait -r "Figure8and9; exit"
 cd ..
-cd figures/rcemip_tke15
-matlab -r Figure5
-matlab -r Figure8and9
+cd figures_rcemip_tke15
+matlab -nodesktop -nosplash -wait -r "Figure5; exit"
+matlab -nodesktop -nosplash -wait -r "Figure8and9; exit"
+cd ..
+cd figures_rcemip_m2005_tke15
+matlab -nodesktop -nosplash -wait -r "Figure5; exit"
+matlab -nodesktop -nosplash -wait -r "Figure8and9; exit"
 cd ..
 echo "Finished"

@@ -4,6 +4,7 @@
 
 % Setup
 addpath(genpath('..\matlab'));
+latex = 1;
 set_plot_styling;
 SAM_defineConstants;
 SOM_defineConstants;

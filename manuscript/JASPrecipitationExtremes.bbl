@@ -1,0 +1,316 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\renewcommand{\UrlFont}{\rmfamily}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Allen and Ingram(2002)Allen, and Ingram}]{Allen2002ConstraintsCycle}
+Allen, M.~R., and W.~J. Ingram, 2002: {Constraints on future changes in climate
+  and the hydrologic cycle}. \textit{Nature}, \textbf{419~(6903)}, 224--232,
+  \doi{10.1038/nature01092},
+  \urlprefix\url{http://www.nature.com/doifinder/10.1038/nature01092}.
+
+\bibitem[{Back and Bretherton(2006)Back, and
+  Bretherton}]{Back2006GeographicPacific}
+Back, L.~E., and C.~S. Bretherton, 2006: {Geographic variability in the export
+  of moist static energy and vertical motion profiles in the tropical Pacific}.
+  \textit{Geophysical Research Letters}, \textbf{33~(17)},
+  \doi{10.1029/2006GL026672}.
+
+\bibitem[{Beucler et~al.(2019)Beucler, Abbott, Cronin,, and
+  Pritchard}]{Beucler2019ComparingEquator}
+Beucler, T., T.~H. Abbott, T.~W. Cronin, and M.~S. Pritchard, 2019: {Comparing
+  Convective Self‐Aggregation in Idealized Models to Observed Moist Static
+  Energy Variability Near the Equator}. \textit{Geophysical Research Letters},
+  \doi{10.1029/2019gl084130}.
+
+\bibitem[{Beucler and Cronin(2019)Beucler, and
+  Cronin}]{Beucler2019ASelf-aggregation}
+Beucler, T., and T.~Cronin, 2019: {A budget for the size of convective
+  self-aggregation}. \textit{Quarterly Journal of the Royal Meteorological
+  Society}, \textbf{145~(720)}, 947--966, \doi{10.1002/qj.3468}.
+
+\bibitem[{Chen et~al.(2019)Chen, Norris, Neelin, Lu, Leung,, and
+  Sakaguchi}]{Chen2019ThermodynamicEvents}
+Chen, G., J.~Norris, J.~D. Neelin, J.~Lu, L.~R. Leung, and K.~Sakaguchi, 2019:
+  {Thermodynamic and Dynamic Mechanisms for Hydrological Cycle Intensification
+  over the Full Probability Distribution of Precipitation Events}.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{76~(2)}, 497--516,
+  \doi{10.1175/jas-d-18-0067.1}.
+
+\bibitem[{Collins et~al.(2006)}]{Collins2006TheCAM3}
+Collins, W.~D., and Coauthors, 2006: {The Formulation and Atmospheric
+  Simulation of the Community Atmosphere Model Version 3 (CAM3)}.
+  \textit{Journal of Climate}, \textbf{19},
+  \urlprefix\url{http://www.ccsm.ucar.edu/models/atm-cam}.
+
+\bibitem[{Cronin and Wing(2017)Cronin, and Wing}]{Cronin2017CloudsModel}
+Cronin, T.~W., and A.~A. Wing, 2017: {Clouds, Circulation, and Climate
+  Sensitivity in a Radiative-Convective Equilibrium Channel Model}.
+  \textit{Journal of Advances in Modeling Earth Systems}, \textbf{9~(8)},
+  2883--2905, \doi{10.1002/2017MS001111}.
+
+\bibitem[{Emori and Brown(2005)Emori, and Brown}]{Emori2005DynamicClimate}
+Emori, S., and S.~J. Brown, 2005: {Dynamic and thermodynamic changes in mean
+  and extreme precipitation under changed climate}. \textit{Geophysical
+  Research Letters}, \textbf{32~(17)}, 1--5, \doi{10.1029/2005GL023272}.
+
+\bibitem[{Fildier et~al.(2017)Fildier, Parishani,, and
+  Collins}]{Fildier2017SimultaneousChange}
+Fildier, B., H.~Parishani, and W.~D. Collins, 2017: {Simultaneous
+  characterization of mesoscale and convective-scale tropical rainfall extremes
+  and their dynamical and thermodynamic modes of change}. \textit{Journal of
+  Advances in Modeling Earth Systems}, \textbf{9~(5)}, 2103--2119,
+  \doi{10.1002/2017MS001033}.
+
+\bibitem[{Hamada et~al.(2015)Hamada, Takayabu, Liu,, and
+  Zipser}]{Hamada2015WeakStorms}
+Hamada, A., Y.~N. Takayabu, C.~Liu, and E.~J. Zipser, 2015: {Weak linkage
+  between the heaviest rainfall and tallest storms}. \textit{Nature
+  Communications}, \textbf{6}, \doi{10.1038/ncomms7213}.
+
+\bibitem[{Holton and Hakim(2013)Holton, and Hakim}]{Holton2013AnMeteorology}
+Holton, J.~R., and G.~J. Hakim, 2013: \textit{{An Introduction to Dynamic
+  Meteorology}}. 5th ed., Academic Press, Waltham, MA.
+
+\bibitem[{{IPCC}(2013)}]{IPCC2013ClimateChange}
+{IPCC}, 2013: \textit{{Climate Change 2013: The Physical Science Basis.
+  Contribution of Working Group I to the Fifth Assessment Report of the
+  Intergovernmental Panel on Climate Change}}. Cambridge University Press,
+  Cambridge, UK and New York, NY.
+
+\bibitem[{Jeevanjee and Romps(2015)Jeevanjee, and
+  Romps}]{Jeevanjee2015EffectivePools}
+Jeevanjee, N., and D.~M. Romps, 2015: {Effective buoyancy, inertial pressure,
+  and the mechanical generation of boundary layer mass flux by cold pools}.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{72~(8)}, 3199--3213,
+  \doi{10.1175/JAS-D-14-0349.1}.
+
+\bibitem[{Jeevanjee and Romps(2016)Jeevanjee, and
+  Romps}]{Jeevanjee2016EffectiveAloft}
+Jeevanjee, N., and D.~M. Romps, 2016: {Effective buoyancy at the surface and
+  aloft}. \textit{Quarterly Journal of the Royal Meteorological Society},
+  \textbf{142~(695)}, 811--820, \doi{10.1002/qj.2683}.
+
+\bibitem[{Khairoutdinov and Randall(2003)Khairoutdinov, and
+  Randall}]{Khairoutdinov2003CloudSensitivities}
+Khairoutdinov, M.~F., and D.~a. Randall, 2003: {Cloud Resolving Modeling of the
+  ARM Summer 1997 IOP: Model Formulation, Results, Uncertainties, and
+  Sensitivities}. \textit{Journal of the Atmospheric Sciences},
+  \textbf{60~(4)}, 607--625,
+  \doi{10.1175/1520-0469(2003)060<0607:CRMOTA>2.0.CO;2}.
+
+\bibitem[{Kharin et~al.(2007)Kharin, Zwiers, Zhang,, and
+  Hegerl}]{Kharin2007ChangesSimulations}
+Kharin, V.~V., F.~W. Zwiers, X.~Zhang, and G.~C. Hegerl, 2007: {Changes in
+  temperature and precipitation extremes in the IPCC ensemble of global coupled
+  model simulations}. \textit{Journal of Climate}, \textbf{20~(8)}, 1419--1444,
+  \doi{10.1175/JCLI4066.1}.
+
+\bibitem[{Kuang and Bretherton(2006)Kuang, and
+  Bretherton}]{KuangBretherton2006}
+Kuang, Z., and C.~S. Bretherton, 2006: {A Mass-Flux Scheme View of a
+  High-Resolution Simulation of a Transition from Shallow to Deep Convection}.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{63}, 1895--1909.
+
+\bibitem[{Loriaux et~al.(2013)Loriaux, Lenderink, De~Roode, Siebesma, Loriaux,
+  Lenderink, Roode,, and Siebesma}]{Loriaux2013UnderstandingModel}
+Loriaux, J.~M., G.~Lenderink, S.~R. De~Roode, A.~P. Siebesma, J.~M. Loriaux,
+  G.~Lenderink, S.~R.~D. Roode, and A.~P. Siebesma, 2013: {Understanding
+  Convective Extreme Precipitation Scaling Using Observations and an Entraining
+  Plume Model}. \textit{Journal of the Atmospheric Sciences}, \textbf{70~(11)},
+  3641--3655, \doi{10.1175/JAS-D-12-0317.1},
+  \urlprefix\url{http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-12-0317.1}.
+
+\bibitem[{Lutsko and Cronin(2018)Lutsko, and
+  Cronin}]{Lutsko2018IncreaseEquilibrium}
+Lutsko, N.~J., and T.~W. Cronin, 2018: {Increase in Precipitation Efficiency
+  With Surface Warming in Radiative-Convective Equilibrium}. \textit{Journal of
+  Advances in Modeling Earth Systems}, \textbf{10~(11)}, 2992--3010,
+  \doi{10.1029/2018MS001482}.
+
+\bibitem[{Martinez-Villalobos and Neelin(2019)Martinez-Villalobos, and
+  Neelin}]{Martinez-Villalobos2019WhyDistributions}
+Martinez-Villalobos, C., and J.~D. Neelin, 2019: {Why do precipitation
+  intensities tend to follow Gamma distributions?} \textit{Journal of the
+  Atmospheric Sciences}, \doi{10.1175/jas-d-18-0343.1}.
+
+\bibitem[{Moore et~al.(2014)Moore, Kuang,, and Blossey}]{Moore2014AEffect}
+Moore, M., Z.~Kuang, and P.~N. Blossey, 2014: {A moisture budget perspective of
+  the amount effect}. \textit{Geophysical Research Letters}, \textbf{41~(4)},
+  1329--1335, \doi{10.1002/2013GL058302}.
+
+\bibitem[{Morrison et~al.(2005)Morrison, Curry,, and
+  Khvorostyanov}]{Morrison2005ADescription}
+Morrison, H., J.~A. Curry, and V.~I. Khvorostyanov, 2005: {A New Double-Moment
+  Microphysics Parameterization for Application in Cloud and Climate Models.
+  Part I: Description}. \textit{Journal of the Atmospheric Sciences},
+  \textbf{62}, 1665--1677.
+
+\bibitem[{Morrison and Peters(2018)Morrison, and
+  Peters}]{Morrison2018TheoreticalThermals}
+Morrison, H., and J.~M. Peters, 2018: {Theoretical expressions for the ascent
+  rate of moist deep convective thermals}. \textit{Journal of the Atmospheric
+  Sciences}, \textbf{75~(5)}, 1699--1719, \doi{10.1175/JAS-D-17-0295.1}.
+
+\bibitem[{Muller(2013)}]{Muller2013ImpactWarming}
+Muller, C., 2013: {Impact of convective organization on the response of
+  tropical precipitation extremes to warming}. \textit{Journal of Climate},
+  \textbf{26~(14)}, 5028--5043, \doi{10.1175/JCLI-D-12-00655.1}.
+
+\bibitem[{Muller et~al.(2011)Muller, O'Gorman,, and
+  Back}]{Muller2011IntensificationModel}
+Muller, C.~J., P.~A. O'Gorman, and L.~E. Back, 2011: {Intensification of
+  precipitation extremes with warming in a cloud-resolving model}.
+  \textit{Journal of Climate}, \textbf{24~(11)}, 2784--2800,
+  \doi{10.1175/2011JCLI3876.1}.
+
+\bibitem[{Nesbitt et~al.(2006)Nesbitt, Cifelli,, and
+  Rutledge}]{Nesbitt2006StormFeatures}
+Nesbitt, S.~W., R.~Cifelli, and S.~A. Rutledge, 2006: {Storm Morphology and
+  Rainfall Characteristics of TRMM Precipitation Features}. \textit{Monthly
+  Weather Review}, \textbf{134}, 2702--2721,
+  \urlprefix\url{http://tsdis.gsfc.nasa.gov.}
+
+\bibitem[{Norris et~al.(2019)Norris, Chen,, and
+  David~Neelin}]{Norris2019ThermodynamicEnsemble}
+Norris, J., G.~Chen, and J.~David~Neelin, 2019: {Thermodynamic versus dynamic
+  controls on extreme precipitation in a warming climate from the Community
+  Earth System Model Large Ensemble}. \textit{Journal of Climate},
+  \textbf{32~(4)}, 1025--1045, \doi{10.1175/JCLI-D-18-0302.1}.
+
+\bibitem[{O'Gorman and Schneider(2009{\natexlab{a}})O'Gorman, and
+  Schneider}]{Ogorman2009ScalingGCM}
+O'Gorman, P.~A., and T.~Schneider, 2009{\natexlab{a}}: {Scaling of
+  precipitation extremes over a wide range of climates simulated with an
+  idealized GCM}. \textit{Journal of Climate}, \textbf{22~(21)}, 5676--5685,
+  \doi{10.1175/2009JCLI2701.1}.
+
+\bibitem[{O'Gorman and Schneider(2009{\natexlab{b}})O'Gorman, and
+  Schneider}]{OGorman2009TheChange}
+O'Gorman, P.~A., and T.~Schneider, 2009{\natexlab{b}}: {The physical basis for
+  increases in precipitation extremes in simulations of 21st-century climate
+  change}. \textit{Proceedings of the National Academy of Sciences},
+  \textbf{106~(35)}, 14\,773--14\,777, \doi{10.1073/pnas.0907610106},
+  \urlprefix\url{http://www.pnas.org/cgi/doi/10.1073/pnas.0907610106}.
+
+\bibitem[{Pendergrass and Hartmann(2014{\natexlab{a}})Pendergrass, and
+  Hartmann}]{Pendergrass2014ChangesWarming}
+Pendergrass, A.~G., and D.~L. Hartmann, 2014{\natexlab{a}}: {Changes in the
+  Distribution of Rain Frequency and Intensity in Response to Global Warming}.
+  \textit{Journal of Climate}, \textbf{27}, 8372--8383,
+  \doi{10.1175/JCLI-D-14-00183.s1},
+  \urlprefix\url{http://dx.doi.org/10.1175/JCLI-D-14-00183.s1.}
+
+\bibitem[{Pendergrass and Hartmann(2014{\natexlab{b}})Pendergrass, and
+  Hartmann}]{Pendergrass2014TwoRain}
+Pendergrass, A.~G., and D.~L. Hartmann, 2014{\natexlab{b}}: {Two Modes of
+  Change of the Distribution of Rain}. \textit{Journal of Climate},
+  \textbf{27}, 8357--8371, \doi{10.1175/JCLI-D},
+  \urlprefix\url{http://dx.doi.org/10.1175/JCLI-D-}.
+
+\bibitem[{Pendergrass et~al.(2016)Pendergrass, Reed,, and
+  Medeiros}]{Pendergrass2016TheSimulations}
+Pendergrass, A.~G., K.~A. Reed, and B.~Medeiros, 2016: {The link between
+  extreme precipitation and convective organization in a warming climate:
+  Global radiative-convective equilibrium simulations}. \textit{Geophysical
+  Research Letters}, \textbf{43~(21)}, 445--11, \doi{10.1002/2016GL071285}.
+
+\bibitem[{Pierrehumbert(2010)}]{Pierrehumbert2010PrinciplesClimate}
+Pierrehumbert, R.~T., 2010: \textit{{Principles of Planetary Climate}}.
+  Cambridge University Press, New York.
+
+\bibitem[{Romps(2011)}]{Romps2011ResponseWarming}
+Romps, D.~M., 2011: {Response of Tropical Precipitation to Global Warming}.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{68~(1)}, 123--138,
+  \doi{10.1175/2010JAS3542.1},
+  \urlprefix\url{http://journals.ametsoc.org/doi/abs/10.1175/2010JAS3542.1}.
+
+\bibitem[{Romps(2016)}]{Romps2016ClausiusClapeyronRCE}
+Romps, D.~M., 2016: {Clausius–Clapeyron Scaling of CAPE from Analytical
+  Solutions to RCE}. \textit{Journal of the Atmospheric Sciences},
+  \textbf{73~(9)}, 3719--3737, \doi{10.1175/jas-d-15-0327.1}.
+
+\bibitem[{Romps and Kuang(2009)Romps, and Kuang}]{Romps2009DoTroposphere}
+Romps, D.~M., and Z.~Kuang, 2009: {Do Undiluted Convective Plumes Exist in the
+  Upper Tropical Troposphere?} \textit{Journal of the Atmospheric Sciences},
+  \textbf{67~(2)}, 468--484, \doi{10.1175/2009jas3184.1}.
+
+\bibitem[{Romps and {\"{O}}ktem(2015)Romps, and
+  {\"{O}}ktem}]{Romps2015StereoThermals}
+Romps, D.~M., and R.~{\"{O}}ktem, 2015: {Stereo photogrammetry reveals
+  substantial drag on cloud thermals}. \textit{Geophysical Research Letters},
+  \textbf{42~(12)}, 5051--5057, \doi{10.1002/2015GL064009}.
+
+\bibitem[{Schiro et~al.(2018)Schiro, Ahmed, Giangrande,, and
+  Neelin}]{Schiro2018GoAmazon2014/5Scales}
+Schiro, K.~A., F.~Ahmed, S.~E. Giangrande, and J.~D. Neelin, 2018:
+  {GoAmazon2014/5 campaign points to deep-inflow approach to deep convection
+  across scales}. \textit{Proceedings of the National Academy of Sciences},
+  \textbf{115~(18)}, 4577--4582, \doi{10.1073/pnas.1719842115}.
+
+\bibitem[{Seeley et~al.(2019)Seeley, Jeevanjee,, and
+  Romps}]{Seeley2019FATInvariant}
+Seeley, J.~T., N.~Jeevanjee, and D.~M. Romps, 2019: {FAT or FiTT: Are Anvil
+  Clouds or the Tropopause Temperature Invariant?} \textit{Geophysical Research
+  Letters}, \textbf{46~(3)}, 1842--1850, \doi{10.1029/2018GL080096}.
+
+\bibitem[{Seeley and Romps(2015)Seeley, and Romps}]{Seeley2015WhyWarming}
+Seeley, J.~T., and D.~M. Romps, 2015: {Why does tropical convective available
+  potential energy (CAPE) increase with warming?} \textit{Geophysical Research
+  Letters}, \textbf{42~(23)}, 10\,429--10\,437, \doi{10.1002/2015GL066199}.
+
+\bibitem[{Seeley and Romps(2016)Seeley, and Romps}]{Seeley2016TropicalIce}
+Seeley, J.~T., and D.~M. Romps, 2016: {Tropical cloud buoyancy is the same in a
+  world with or without ice}. \textit{Geophysical Research Letters},
+  \textbf{43~(7)}, 3572--3579, \doi{10.1002/2016GL068583}.
+
+\bibitem[{Singh and O'Gorman(2013)Singh, and
+  O'Gorman}]{Singh2013InfluenceEquilibrium}
+Singh, M.~S., and P.~A. O'Gorman, 2013: {Influence of entrainment on the
+  thermal stratification in simulations of radiative-convective equilibrium}.
+  \textit{Geophysical Research Letters}, \textbf{40~(16)}, 4398--4403,
+  \doi{10.1002/grl.50796}.
+
+\bibitem[{Singh and O'Gorman(2014)Singh, and
+  O'Gorman}]{Singh2014TheTemperature}
+Singh, M.~S., and P.~A. O'Gorman, 2014: {The role of hydrometeor fall speed in
+  the scaling of precipitation extremes with temperature}. \textit{Geophysical
+  Research Letters}, \textbf{41}, 1--6, \doi{10.1002/2014GL061222.1.},
+  \urlprefix\url{http://www.mit.edu/~pog/src/singh_fall_speed_precipitation_extremes_2014.pdf}.
+
+\bibitem[{Singh and O'Gorman(2015)Singh, and
+  O'Gorman}]{Singh2015IncreasesEquilibrium}
+Singh, M.~S., and P.~A. O'Gorman, 2015: {Increases in moist-convective
+  updraught velocities with warming in radiative-convective equilibrium}.
+  \textit{Quarterly Journal of the Royal Meteorological Society},
+  \textbf{141~(692)}, 2828--2838, \doi{10.1002/qj.2567}.
+
+\bibitem[{Torri et~al.(2017)Torri, Ma,, and Kuang}]{Torri2017StableTropics}
+Torri, G., D.~Ma, and Z.~Kuang, 2017: {Stable water isotopes and large-scale
+  vertical motions in the tropics}. \textit{Journal of Geophysical Research},
+  \textbf{122~(7)}, 3703--3717, \doi{10.1002/2016JD026154}.
+
+\bibitem[{Wing and Cronin(2016)Wing, and
+  Cronin}]{Wing2016Self-aggregationGeometry}
+Wing, A.~A., and T.~W. Cronin, 2016: {Self-aggregation of convection in long
+  channel geometry}. \textit{Quarterly Journal of the Royal Meteorological
+  Society}, \textbf{142~(694)}, 1--15, \doi{10.1002/qj.2628}.
+
+\bibitem[{Wing et~al.(2018)Wing, Reed, Satoh, Stevens, Bony,, and
+  Ohno}]{Wing2018Radiative-convectiveProject}
+Wing, A.~A., K.~A. Reed, M.~Satoh, B.~Stevens, S.~Bony, and T.~Ohno, 2018:
+  {Radiative-convective equilibrium model intercomparison project}.
+  \textit{Geoscientific Model Development}, \textbf{11~(2)}, 793--813,
+  \doi{10.5194/gmd-11-793-2018}.
+
+\bibitem[{Xu and Emanuel(1989)Xu, and Emanuel}]{Xu1989IsUnstable}
+Xu, K.-m., and K.~A. Emanuel, 1989: {Is the Tropical Atmosphere Conditionally
+  Unstable?} \textit{Monthly Weather Review}, \textbf{117}, 1471--1479.
+
+\end{thebibliography}

@@ -224,7 +224,7 @@ for ss = sst
     xlim([-10, 150]);
     set(gca, 'YDir', 'reverse');
     title(sprintf('Small-domain %d K', ss));
-    pngandpdf(sprintf('Figure9_A2_%d', ss));
+    pngandpdf(sprintf('FigureA4_%d', ss));
     
 
     % Compute buoyancy integrals

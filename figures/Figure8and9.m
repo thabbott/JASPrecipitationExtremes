@@ -445,7 +445,7 @@ leg.ItemTokenSize = [10,1];
 title('(b)');
 yl = ylim;
 ylim([0 yl(2)]);
-pngandpdf('Figure8');
+pngandpdf('Figure8B');
 
 figure(standard_figure('half-page')); hold on;
 plot(sst, w_reda_qtilde, 'k-o', 'LineWidth', 1.5);

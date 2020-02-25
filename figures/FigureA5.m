@@ -72,4 +72,4 @@ ylabel('Mean collapse error (nondim.)');
 leg = legend('Channel', 'Small-domain', 'Location', 'southeast');
 leg.Box = 'off';
 ylim([0, 1]);
-pngandpdf('omega_profile_coherence');
+pngandpdf('FigureA5');

@@ -50,6 +50,7 @@
 \usepackage{caption}
 \captionsetup{singlelinecheck=false}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% To be entered by author:
@@ -161,12 +162,12 @@ Depending on the time scale considered, $C$ may be spatiotemporally co-located w
 In Equation \ref{eqn:condint}, $p$ is pressure, $p_s$ is surface pressure, $g$ is the acceleration from gravity, and the change in saturation specific humidity with pressure $\left({\rm d}q^*/{\rm d}p\right)_{\theta_e^*}$ (hereafter referred to as the ``moisture lapse rate'') is calculated following a moist adiabat (i.e., holding saturated equivalent potential temperature $\theta_e^*$ fixed). 
 
 The scaling can then be used to relate the response of precipitation extremes to warming to changes in precipitation efficiency, changes in the moisture lapse rate (the ``thermodynamic mode''), and changes in pressure velocity profiles (the ``dynamic mode'') \citep{Muller2011IntensificationModel}:
+\begin{strip}
 \begin{equation}
-\begin{split}
     \frac{\delta P}{P} \approx \frac{\delta \epsilon}{\epsilon} + \underbrace{\frac{-\int_{0}^{p_s} \frac{\omega}{g} \delta \left(\frac{\mathrm{d}q^*}{\mathrm{d}p} \right)_{\theta_e^*} \mathrm{d}{p}}{C}}_\text{Thermodynamic mode} + \underbrace{\frac{-\int_{0}^{p_s} \delta \left ( \frac{\omega}{g} \right) \left(\frac{\mathrm{d}q^*}{\mathrm{d}p} \right)_{\theta_e^*} \mathrm{d}{p}}{C}}_\text{Dynamic mode}.
 \label{eqn:decomp}
-\end{split}
 \end{equation}
+\end{strip}
 Here, $\delta$ indicates a change between two climates, and terms that include products of changes have been dropped. Throughout this paper, we use the terms "thermodynamic mode" and "dynamic mode" to refer to contributions to changes in precipitation extremes corresponding to the two terms labeled in Eq. \ref{eqn:decomp}.
 
 Previous modeling studies have found, empirically, that the thermodynamic mode at temperatures close to Earth's present-day tropics is close (within about 2 \% K$^{-1}$) to the $\approx$7 \% K$^{-1}$  Clausius-Clapeyron (CC) scaling of saturation specific humidity with surface temperature, regardless of whether the studies use global simulations with parameterized convection \citep{OGorman2009TheChange,Ogorman2009ScalingGCM,Chen2019ThermodynamicEvents}, global simulations with superparameterized convection \citep{Fildier2017SimultaneousChange}, or limited-area radiative-convective equilibrium (RCE) simulations with convection-permitting models \citep{Muller2011IntensificationModel,Romps2011ResponseWarming,Muller2013ImpactWarming}. A CC scaling for the thermodynamic mode can also be derived theoretically by making three assumptions: that (1) $\omega/g$ is constant between the surface and the tropopause, (2) $q^*$ is near-zero at the tropopause, and (3) the temperature profile is moist adiabatic \citep{Ogorman2009ScalingGCM,Muller2011IntensificationModel}. If all three assumptions hold, the thermodynamic mode reduces approximately to a CC scaling of $\delta(q^*_s)/q^*_s$, where $q^*_s$ is the near-surface saturation specific humidity. 
@@ -214,8 +215,9 @@ Rather than defining the decomposition using pressure velocity and pressure coor
 and decomposing changes as
 \begin{equation} \label{eqn:zdecomp}
 \begin{split}
-    \delta C = -\int_{0}^{\infty} \delta w \left ( \rho \left (\frac{{\rm d}q^*}{{\rm d}z} \right )_{\theta_e^*} \right ) {\rm d}z - \int_{0}^{\infty} w \delta \left ( \rho \left (\frac{{\rm d}q^*}{{\rm d}z} \right )_{\theta_e^*} \right ) {\rm d}z.
-\begin{split}
+	\delta C = &-\int_{0}^{\infty} \delta w \left ( \rho \left (\frac{{\rm d}q^*}{{\rm d}z} \right )_{\theta_e^*} \right ) {\rm d}z \\
+	&- \int_{0}^{\infty} w \delta \left ( \rho \left (\frac{{\rm d}q^*}{{\rm d}z} \right )_{\theta_e^*} \right ) {\rm d}z.
+\end{split}
 \end{equation}
 The choice to calculate changes in profiles at fixed pressure (as is implied by Equation \ref{eqn:decomp}) versus fixed height (as is implied by Equation \ref{eqn:zdecomp}) has a negligible impact on the decomposition (pressures at fixed heights change by not more than 15 hPa between adjacent simulations). The choice to calculate the dynamic mode in terms of changes in $\omega$ verus $w$, on the other hand, obviously affects the partitioning of changes between dynamic and thermodynamic modes. We chose a decomposition that separates $\omega$ and $\left({\rm d}q^*/{\rm d}p\right)_{\theta_e^*}$ primarily because it expresses the thermodynamic mode in terms of changes in the moisture lapse rate alone, which is consistent with and allows for easy comparison with previous studies \citep[e.g.][]{Ogorman2009ScalingGCM,OGorman2009TheChange,Muller2011IntensificationModel,Muller2013ImpactWarming, Fildier2017SimultaneousChange}.
 
@@ -311,8 +313,8 @@ In Section \ref{sec:scal}, we showed that simulated pressure velocity profiles i
 The starting point for the model is Equation 10 from \citet{Singh2015IncreasesEquilibrium}, which relates the temperature anomaly $\Delta T_w$ in a weakly entraining plume to the plume entrainment rate and environmental parameters:
 \begin{equation}
 \begin{split}
-    \Delta T_w = \frac{1}{1 + \frac{L_v^2 q^*_e(z)}{c_p R_v T_e^2(z)}} \left [ e^{-\varepsilon_w \left ( z - z_b \right )} \frac{\Delta h_b}{c_p} + \frac{\Delta \varepsilon \left(1 - RH
-    \right) L_v}{c_p}\int_{z_b}^{z} e^{-\varepsilon_w (z - z')} q^*_e(z) \mathrm{d}z' \right ].
+	\Delta T_w &= \frac{1}{1 + \frac{L_v^2 q^*_e(z)}{c_p R_v T_e^2(z)}} \bigg [ e^{-\varepsilon_w \left ( z - z_b \right )} \frac{\Delta h_b}{c_p} \\
+	&+ \frac{\Delta \varepsilon \left(1 - RH \right) L_v}{c_p}\int_{z_b}^{z} e^{-\varepsilon_w (z - z')} q^*_e(z) \mathrm{d}z' \bigg ].
 \end{split}
 \end{equation}
 This equation is modified slightly compared to Equation 10 of \citet{Singh2015IncreasesEquilibrium} to include a cloud-base moist static energy (MSE) anomaly $\Delta h_b$. $\varepsilon_w$ is the entrainment rate of the weakly entraining plume, $\Delta \varepsilon$ is the difference in entrainment rate between the weakly entraining plume and the more common strongly-entraining plumes that set environmental temperature profiles, $q^*_e(z)$ is the environmental saturation specific humidity, $RH$ is the environmental relative humidity, $R_v$ is the specific gas constant for water vapor, $T_e(z)$ is the environmental temperature profile, and $z_b$ is the cloud-base height. 
@@ -369,7 +371,7 @@ Finally, we want to finish by discussing how we view this work in the broader co
 %
 
 \acknowledgments
-Tristan H. Abbott was supported by a Norman C. Rasmussen Fellowship and a Grayce B. Kerr Fellowship. Tristan H. Abbott and Timothy W. Cronin were supported by NSF grant AGS-1740533, and Tom Beucler was supported by NSF grants AGS-1520683 and OAC-1835769. The authors thank Marat Khairoutdinov for providing SAM, Allison Wing for providing simulation output, and Kathleen Schiro for providing the Nauru optical rain gauge timeseries. Processed model output and code required to reproduce the figures in this paper is available at {\tt https://github.com/thabbott/JASPrecipitationExtremes}, and raw SAM output is available from the authors upon request (email thabbott@mit.edu).
+Tristan H. Abbott was supported by a Norman C. Rasmussen Fellowship and a Grayce B. Kerr Fellowship. Tristan H. Abbott and Timothy W. Cronin were supported by NSF grant AGS-1740533, and Tom Beucler was supported by NSF grants AGS-1520683 and OAC-1835769. The authors thank Marat Khairoutdinov for providing SAM, Allison Wing for providing simulation output, and Kathleen Schiro for providing the Nauru optical rain gauge timeseries. Processed model output and code required to reproduce the figures in this paper is available at {\tt https://github.com/thabbott/}\\*{\tt JASPrecipitationExtremes}, and raw SAM output is available from the authors upon request (email thabbott@mit.edu).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % APPENDIXES
@@ -410,10 +412,10 @@ Tristan H. Abbott was supported by a Norman C. Rasmussen Fellowship and a Grayce
 The moisture lapse rate profiles shown in Figures \ref{fig:f1}a and \ref{fig:f4}b have three important features: first, they decline more slowly with height than either saturation vapor pressure or saturation specific humidity; second, they increase at fixed pressure with increasing surface temperature, and third, the increase is amplified in the upper troposphere in warm climates.
 
 We can get some intuition for these features by writing down and analyzing an expression for the moisture lapse rate:
-
 \begin{equation} \label{eqn:mlrexp}
 \begin{split}
-    \left(\frac{{\rm d}q^*}{{\rm d}p}\right)_{\theta_e^*} = \frac{M_v}{M_a}\left(\frac{{\rm d}(e^*/p)}{{\rm d}p}\right)_{\theta_e^*} = \frac{M_v}{M_a} \left ( \frac{1}{p} \left(\frac{{\rm d}e^*}{{\rm d}p}\right)_{\theta_e^*} - \frac{e^*}{p^2} \right ).
+	\left(\frac{{\rm d}q^*}{{\rm d}p}\right)_{\theta_e^*} &= \frac{M_v}{M_a}\left(\frac{{\rm d}(e^*/p)}{{\rm d}p}\right)_{\theta_e^*} \\
+	&= \frac{M_v}{M_a} \left ( \frac{1}{p} \left(\frac{{\rm d}e^*}{{\rm d}p}\right)_{\theta_e^*} - \frac{e^*}{p^2} \right ).
 \end{split}
 \end{equation}
 where $M_v$ and $M_a$ are the molecular weights of water vapor and dry air and $e^*$ is the saturation vapor pressure.
@@ -421,7 +423,8 @@ where $M_v$ and $M_a$ are the molecular weights of water vapor and dry air and $
 We can use an approximate version of the Clausius-Clapeyron relation \citep[][]{Pierrehumbert2010PrinciplesClimate} to re-write the derivative of saturation vapor pressure as
 \begin{equation} \label{eqn:clcl}
 \begin{split}
-    \left(\frac{{\rm d}e^*}{{\rm d}p}\right)_{\theta_e^*} = \frac{L_v e^*}{R_v T^2} \left(\frac{{\rm d}T}{{\rm d}p}\right)_{\theta_e^*} = \frac{L_v e^*}{R_v T^2} \frac{R_a T}{c_p p} \phi(T,p),
+\    	\left(\frac{{\rm d}e^*}{{\rm d}p}\right)_{\theta_e^*} &= \frac{L_v e^*}{R_v T^2} \left(\frac{{\rm d}T}{{\rm d}p}\right)_{\theta_e^*} \\
+	&= \frac{L_v e^*}{R_v T^2} \frac{R_a T}{c_p p} \phi(T,p),
 \end{split}
 \end{equation}
 where 
@@ -431,7 +434,8 @@ where
 is the ratio between the moist and dry adiabatic temperature lapse rates \citep[e.g.][]{Pierrehumbert2010PrinciplesClimate} and $c_{pv}$ is the heat capacity at constant pressure of water vapor. Substituting Equation \ref{eqn:clcl} into Equation \ref{eqn:mlrexp} and re-arranging gives
 \begin{equation} \label{eqn:mlr}
 \begin{split}
-    \left(\frac{{\rm d}q^*}{{\rm d}p}\right)_{\theta_e^*} = \frac{M_v}{M_a} \left ( \frac{1}{p} \frac{L_v e^*}{R_v T^2} \frac{R_a T}{c_p p} \phi(T,p) - \frac{e^*}{p^2} \right ) = \frac{M_v}{M_a} \frac{e^*}{p^2} \left ( \frac{T_0}{T} \phi(T,p) - 1 \right ),
+	\left(\frac{{\rm d}q^*}{{\rm d}p}\right)_{\theta_e^*} &= \frac{M_v}{M_a} \left ( \frac{1}{p} \frac{L_v e^*}{R_v T^2} \frac{R_a T}{c_p p} \phi(T,p) - \frac{e^*}{p^2} \right ) \\
+	&= \frac{M_v}{M_a} \frac{e^*}{p^2} \left ( \frac{T_0}{T} \phi(T,p) - 1 \right ),
 \end{split}
 \end{equation}
 where $T_0 \approx 1550$ K is a temperature scale given by
@@ -561,7 +565,7 @@ In other words, we speculate that differences in the relationship between 99.99t
 \caption{The simplified dynamical mode (solid green line) decomposed into change in height coordinate vertical velocities (dashed green line) and densities (dash-dotted green line). Black dashed lines show a CC scaling with surface temperature and zero rate of change.}
 \label{fig:f6}
 \end{center}
-\end{figure}
+\end{figure*}
 
 \begin{figure*}
 \begin{center}

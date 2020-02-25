@@ -13,8 +13,8 @@ This respository contains several folders:
 
 The repository also contains three bash scripts to automatically regenerate all figures and recompile the paper. They require `matlab`, `pdflatex`, and `bibtex` to be available on the search path. To use the scripts, run
 ```bash
-$ bash reproduce_figures.sh	# Generate all figures---may take some time
+$ bash reproduce_figures.sh	# Generate all figures
 $ bash reproduce_tables.sh	# Calculate the values in Table A1
 $ bash recompile_manuscript.sh	# Compile multi-panel figures and the manuscript
 ```
-If they succeed, they should produce the [arXiv preprint of this paper](https://arxiv.org/abs/1909.01941) as a PDF at `figures/JASPrecipitationExtremes.pdf`.
+Note that `reproduces_figures.sh` will take some time to complete and requires occasional manual intervention to position legends and choose contours for labelling. If the scripts succeed, they should produce the [arXiv preprint of this paper](https://arxiv.org/abs/1909.01941) as a PDF at `figures/JASPrecipitationExtremes.pdf`.
